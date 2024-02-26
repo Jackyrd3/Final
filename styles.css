@@ -81,7 +81,7 @@ grid-column-end:3;
 }
 
 /*design.html*/
-#design-title{
+#design-title, #process-title{
     display:flex;
     justify-content: center;
     font-weight: bold;
@@ -92,13 +92,14 @@ grid-column-end:3;
     padding-top: 5em;
 
 }
-#p1{
+#p1, #process-description, #paragraph{
     font-weight: bold;
     font-size: 1.7em;
     color: #c16dae;
     padding-top:3em;
     padding-bottom: 3em;
     text-align: center;
+    line-height: 2.3;
 }
 
 .design-grid{
@@ -134,42 +135,16 @@ img{
     display:flex;
     justify-content: center;
     padding-top:7em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
 #about img{
     width:680px;
 }
 
-#paragraph{
-    font-weight: bold;
-    font-size: 1.2em;
-    display:flex;
-    color: #b04b99;
-    text-align: center;
-    line-height: 1.6;
-}
+
 
 /*Process*/
-
-#process-title{
-    text-decoration: none;
-    color: #c16dae;
-    text-shadow:1.5px 1.5px #91c2d0;
-    font-size: 2.5em;
-}
-
-#process-description{
-    font-weight: bold;
-    font-size: 1.2em;
-    display:flex;
-    color: #b04b99;
-    text-align: center;
-    line-height: 1.6;
-    padding-bottom: 5em;
-
-}
-
 .grid-process{
     display:grid;
     gap:5em;
